@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米官方商城 - 为发烧而生！</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./iconfont.css">
+</head>
+<body>
+    <div id="HD-TOP">
+    <div id="header">
+        <!-- topbar memu -->
+        <div class="topbar">
+            <div class="memu">
+                <div class="memu-left">
+                    <ul>
+                        <li><a href="#">小米商城</a><span class="hr">|</span></li>
+                        <li><a href="#">MIUI</a><span class="hr">|</span></li>
+                        <li><a href="#">loT</a><span class="hr">|</span></li>
+                        <li><a href="#">云服务</a><span class="hr">|</span></li>
+                        <li><a href="#">金融</a><span class="hr">|</span></li>
+                        <li><a href="#">有品</a><span class="hr">|</span></li>
+                        <li><a href="#">小爱开放平台</a><span class="hr">|</span></li>
+                        <li><a href="#">政企服务</a><span class="hr">|</span></li>
+                        <li><a href="#">Select Region</a></li>
+                    </ul>
+                </div>
+
+                <div class="memu-right">
+                    <a href="./login.html">登录</a><span class="hr">|</span>
+                    <a href="./reg.html">注册</a><span class="hr">|</span>
+                    <a href="#">消息通知</a>
+                    <div class="topbar-cart" id="iconCart">
+                        <a href="#"><i class="iconfont icon-xiazai1"></i> 购物车 (0)</a>
+                    </div>
+                </div>
+                <div class="cart-info" id="cartInfo" style="display:none">
+                    <span class="cart-font" style="color:red">购物车为空，赶紧购物吧！</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- topnav memu -->
+        <div class="topnav">
+            <div style="clear:both"></div>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" title="小米商城" width="55" height="55"></a>
+            </div>
+            <div class="topnav-memu">
+                <ul>
+                    <li><a href="#">小米手机</a></li>
+                    <li><a href="#">红米</a></li>
+                    <li><a href="#">电视</a></li>
+                    <li><a href="#">笔记本</a></li>
+                    <li><a href="#">空调</a></li>
+                    <li><a href="#">新品</a></li>
+                    <li><a href="#">路由器</a></li>
+                    <li><a href="#">智能硬件</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">社区</a></li>
+                </ul>
+            </div>
+            <div class="topnav-search">
+                <form action="./search.php" method="get">
+                    <input type="text" name="search" list="mylist" placeholder="搜你想要...">
+                    <button type="submit"><i class="iconfont icon-sousuo"></i></button>
+                </form>
+                <datalist id="mylist">
+                    <option value="小米6X">约有6件</option>
+                    <option value="小米MIX 2S">约有5件</option>
+                    <option value="黑鲨游戏手机">约有3件</option>
+                    <option value="红米Note5">约有6件</option>
+                    <option value="红米5A">约有13件</option>
+                </datalist>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner-img">
+            <a href="">
+                <img src="./images/banner.jpg" width="1200" height="460">
+            </a>
+        </div>
+        <div class="banner-memu">
+            <ul>
+                <li><a href="">手机 电话卡</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">电视 盒子</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">笔记本 平板</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">家用 插电板</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">出行 穿戴</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">智能 路由器</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">电源 配件</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">健康 儿童</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">耳机 音响</a><i class="iconfont icon-you"></i></li>
+                <li><a href="">生活 箱包</a><i class="iconfont icon-you"></i></li>
+            </ul>
+        </div>
+        <div class="banner-info">
+            <div class="info-img">
+                <a href=""><img src="./images/memu/mi8.png" width="35">小米8 青春版</a>
+            </div>
+            <div class="info-img">
+                <a href=""><img src="./images/memu/mi6.jpg" width="35">小米6X</a>
+            </div>
+            <div class="info-img">
+                <a href=""><img src="./images/memu/6a.png" width="35">红米6A</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- shop host -->
+    <div class="shopHost">
+        <div class="shopClass"></div>
+        <div class="shopgg">
+            <a href="">
+                <img src="./images/classv1.jpg" width="310" height="170">
+            </a>
+        </div>
+        <div class="shopgg">
+            <a href="">
+                <img src="./images/classv2.jpg" width="310" height="170">
+            </a>
+        </div>
+        <div class="shopgg">
+            <a href="">
+                <img src="./images/classv3.jpeg" width="310" height="170">
+            </a>
+        </div>
+    </div>
+
+    <!-- 闪购 -->
+    <div class="shangou">
+        <h2>小米闪购</h2>
+        <div class="sg-Time">
+            <time>特价专卖场</time>
+            <img src="./images/time-sd.png" alt="">
+            <span>距离开始还有:</span>
+            <h2 class="date">十七 天</h2>
+        </div>
+        <div class="sg-Shop" style="border-top:1px solid blue;">
+            <a href="">
+            <div class="topNum-Hot">立减100</div>
+                <img src="./images/sg-f1.jpg">
+            <h3 class="title">最生活毛巾•Air（10条装）白色</h3>
+            <span class="des">超值家庭装 轻柔速干</span>
+            <div class="price"><span>69 元</span> <del>169元</del></div>
+            </a>
+        </div>
+        <div class="sg-Shop" style="border-top:1px solid cyan;">
+            <a href="">
+            <div class="topNum-Hot">立减200</div>
+                <img src="./images/sg-f2.jpg">
+            <h3 class="title">米家空气净化器Pro 白色</h3>
+            <span class="des">500m³/h 颗粒物 CADR</span>
+            <div class="price"><span>1199 元</span> <del>1499元</del></div>
+            </a>
+        </div>
+        <div class="sg-Shop" style="border-top:1px solid pink;">
+            <a href="">
+            <div class="topNum-Hot">1元秒杀</div>
+                <img src="./images/sg-f3.jpg">
+            <h3 class="title">米家感应夜灯 白色</h3>
+            <span class="des">举步之间，光明立现</span>
+            <div class="price"><span>1 元</span> <del>49元</del></div>
+            </a>
+        </div>
+        <div class="sg-Shop" style="border-top:1px solid #f0c;">
+            <a href="">
+            <div class="topNum-Hot">特价商品</div>
+                <img src="./images/sg-f4.jpg">
+            <h3 class="title">米兔定位电话 白色</h3>
+            <span class="des">时刻定位，守护你所爱</span>
+            <div class="price"><span>9.9 元</span> <del>169元</del></div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ad f1 -->
+    <div class="ad">
+        <a href="#"><img src="./images/ad-f1.jpg" width="1200" height="126"></a>
+    </div>
+</div>
+
+    <div id="content">
+		<div class="home-box">
+			<div class="title"><h2>手机</h2></div>
+			<div class="shop-box">
+				<div class="shopBanner">
+					<a href="#">
+						<img src="./images/phone-bg.jpg" width="234" height="615">
+					</a>
+				</div>
+				<div class="shopList">
+					<ul>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-New">新品</div>
+								<a href="#">
+									<div class="shopContent">
+										<div class="shopImg">
+											<img src="./images/shop-1.jpg" width="160" height="160">
+										</div>
+										<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+										<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+										<div class="shopPrice"><span>1399元</span></div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-New">新品</div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-Hot">特价商品</div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- ad f2 -->
+	    <div class="ad">
+	        <a href="#"><img src="./images/ad-2.jpg" width="1200" height="126"></a>
+	    </div>
+
+		<div class="home-box" style="margin-top:20px">
+			<div class="title"><h2>家电</h2></div>
+			<div class="shop-box">
+				<div class="shopBanner">
+					<a href="#">
+						<img src="./images/phone-bg-2.jpg" width="234" height="615">
+					</a>
+				</div>
+				<div class="shopList">
+					<ul>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-New">新品</div>
+								<a href="#">
+									<div class="shopContent">
+										<div class="shopImg">
+											<img src="./images/shop-1.jpg" width="160" height="160">
+										</div>
+										<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+										<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+										<div class="shopPrice"><span>1399元</span></div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-New">新品</div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+								<div class="topNum-Hot">特价商品</div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+						<li>
+							<div class="shop-item shopid">
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="ad">
+       		<a href="#"><img src="./images/ad-f1.jpg" width="1200" height="126"></a>
+    	</div>
+
+		<!-- 推荐 -->
+		<div class="recommend" style="margin-top:30px">
+			<div class="title"><h2>为您推荐</h2></div>
+			<div class="shopList">
+				<ul>
+					<li style="margin-left:0px;">
+						<div class="shop-item shopid">
+							<a href="#">
+								<div class="shopContent">
+								<div class="shopImg">
+									<img src="./images/shop-1.jpg" width="160" height="160">
+								</div>
+								<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+									<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+									<div class="shopPrice"><span>1399元</span></div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="shop-item shopid">
+							<a href="#">
+								<div class="shopContent">
+								<div class="shopImg">
+									<img src="./images/shop-1.jpg" width="160" height="160">
+								</div>
+								<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+									<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+									<div class="shopPrice"><span>1399元</span></div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="shop-item shopid">
+							<a href="#">
+								<div class="shopContent">
+								<div class="shopImg">
+									<img src="./images/shop-1.jpg" width="160" height="160">
+								</div>
+								<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+									<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+									<div class="shopPrice"><span>1399元</span></div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="shop-item shopid">
+							<a href="#">
+								<div class="shopContent">
+								<div class="shopImg">
+									<img src="./images/shop-1.jpg" width="160" height="160">
+								</div>
+								<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+									<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+									<div class="shopPrice"><span>1399元</span></div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="shop-item shopid">
+							<a href="#">
+								<div class="shopContent">
+								<div class="shopImg">
+									<img src="./images/shop-1.jpg" width="160" height="160">
+								</div>
+								<div class="shopTitle"><a href="#">小米8 青春版 4GB+64GB</a></div>
+									<div class="shopDes"><span>潮流镜面渐变色，2400万自拍旗舰</span></div>
+									<div class="shopPrice"><span>1399元</span></div>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+
+    <div id="footer">
+		<div class="link">
+			<a href="#">简体</a> | <a href="#">繁体</a> | <a href="">English</a> | <a href="#">常见问题</a>
+			<span>小米公司版权所有-京ICP备10046444-<img src="./images/ghs.png">京公网安备11010802020134号-京ICP证110507号</span>
+		</div>
+    </div>
+
+    <script type="text/javascript">
+        var cart = document.getElementById('iconCart');
+        var cartInfo = document.getElementById('cartInfo');
+        cart.onmouseover=function(){
+            this.style.background = '#fff';
+            cartInfo.style.display = 'block';
+
+        }
+        cart.onmouseout=function(){
+            this.style.background = '#424242';
+            cartInfo.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
